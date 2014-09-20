@@ -46,3 +46,5 @@ The output tidy data set has 69 columns:
 * Column 2: "Activity_Name" - Mentions Name of the activity for which average is calculated across each measurement
 * Column 3: "Activity_ID" - Mentions ID of the activity for which average is calculated across each measurement
 * Columns 4 - 69: "tBodyAcc-mean()-X", "tBodyAcc-mean()-Y" ... "fBodyBodyGyroJerkMag-std()" - Various measurements taken, described in ```features_info.txt``` file
+
+Unit for Columns 4 - 69 is seconds
