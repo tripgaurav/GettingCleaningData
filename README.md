@@ -22,7 +22,7 @@ Write a R script called ```run_analysis.R``` that does the following:
 1. Downloads the input data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Unzips the data
 3. Reads all ```test``` and ```train``` files
-4. Reads ```activity``` and ```features``` files
+4. Reads ```activity_label``` and ```features``` files
 5. Adds headers to ```test``` and ```train``` datasets
 6. Filters to retain only mean and standard deviation measures in ```test``` and ```train``` datasets
 7. Creates master test and train data by merging subject, activity and timing data
